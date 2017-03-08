@@ -43,7 +43,7 @@ group :development, :test, :mysql do
   gem 'test-unit'
 end
 
-gem 'sqlite3', :group => :test
+#gem 'sqlite3', :group => :test
 
 group :mysql do
   gem 'mysql2'
