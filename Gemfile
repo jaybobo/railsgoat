@@ -89,7 +89,7 @@ gem 'execjs'
 gem 'therubyracer'
 
 # Add SMTP server support using MailCatcher
-gem 'mailcatcher'
+#gem 'mailcatcher'
 
 #For Rails 4.0
 #group :doc do
