@@ -3,14 +3,14 @@ source 'https://rubygems.org'
 #don't upgrade
 gem 'rails', '4.2.7.1'
 
-ruby '2.3.3'
+ruby '2.3.1'
 
 gem 'rake'
 
 # Bundle edge Rails instead:
 # gem 'rails', git: 'https://github.com/rails/rails'
 
-gem 'sqlite3'
+gem 'pg'
 gem 'foreman'
 gem 'crack', '0.3.1'
 
@@ -42,6 +42,8 @@ group :development, :test, :mysql do
   gem 'rspec-rails'
   gem 'test-unit'
 end
+
+gem 'sqlite3', :group => :test
 
 group :mysql do
   gem 'mysql2'
