@@ -99,3 +99,4 @@ gem 'mailcatcher'
 
 #For Rails 4.2
 gem 'responders'
+gem 'rails_12factor', group: :production
